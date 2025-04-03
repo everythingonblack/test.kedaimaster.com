@@ -1,0 +1,20 @@
+/* Default styles - for mobile view */
+#wrapper {
+    width: 100%;
+    max-width: 375px; /* Mobile width ratio */
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  /* Desktop view - simulate mobile ratio on desktop */
+  @media (min-width: 1024px) {
+    #wrapper {
+      width: 100%;
+      max-width: 375px; /* Keep mobile width ratio on desktop */
+      margin: 0 auto;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+  }
+  
